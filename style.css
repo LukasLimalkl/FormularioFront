@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=PT+Serif&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins;
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: #ff7a7a;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.conteiner{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.texto{
+    flex: 1;
+    margin-left: 150px;
+}
+
+.texto h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+/* CARD  */
+.card{
+    flex: 1;
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.card-info{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 1rem;
+    background-color: #59eead;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+
+/* INPUT */
+.card-info input{
+    height: 50px;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 50px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #3e3c49;
+    font-weight: 400;
+    color: #999999;
+    outline: none;
+    border: 1px solid;
+}
+
+/* BOTAO ROXO */
+.teste{
+    width: 500px ;
+    background-color:  #6055a5;
+    height: 40px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-left: 50px;
+    border-radius: 15px;
+    max-width: 100%;
+}
+.bold-span{
+    font-weight: bolder;
+}
+
+.teste p{
+    padding-top: 5px;
+}
+
+.titulo{
+    text-align: center;
+}
+/* LABEL */
+label{
+    color: #3e3c49;
+}
+
+
+.termos{
+    color: hsl(249, 10%, 26%) ;
+}
+
+/* BOTAO */
+
+
+.botao{
+    background: white;
+    border: none;
+    border-radius: 5px;
+    height: 80px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight:700;
+    cursor:pointer;
+}
+/*INPUT TEXT  */
+
+.texto-topo {
+    text-decoration: none;
+    color: white;
+}
+
+.texto-last{
+    text-decoration: none;
+    color:  #ff7a7a; 
+}
+
+/* legend */
+
+label{
+    display: block;
+}
+
+@media (max-width: 900px){
+
+    .conteiner{
+        display: block;
+    }
+    .texto{
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 20px;
+    }
+
+}
